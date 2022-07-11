@@ -1,0 +1,13 @@
+[Unit]
+Description=Starting...
+
+[Service]
+User=
+Group=
+ExecStart=
+LimitMEMLOCK=infinity
+LimitNOFILE=65536
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
